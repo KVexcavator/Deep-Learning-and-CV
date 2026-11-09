@@ -1,0 +1,100 @@
+РОАДМАП: NumPy -> PyTorch -> Computer Vision
+============================================
+
+Книги:
+  "Deep Learning with PyTorch" (2nd edition)
+      Основы: тензоры, как сеть учится, что происходит внутри. Фундамент.
+  "Modern Computer Vision with PyTorch" (Second Edition)
+      Практика CV: классификация, детекция, сегментация на реальных картинках.
+
+Правило: одна основная книга за раз, вторая - как справочник,
+если что-то непонятно.
+
+
+ЭТАП 0. Закончить NumPy
+-----------------------
+  - Глава 5 книги по NumPy - и всё.
+
+
+ЭТАП 1. Фундамент PyTorch
+Основная книга: "Deep Learning with PyTorch"
+-------------------------------------------
+  Шаг 1. "Deep Learning with PyTorch", гл. 1-2
+         Бегло: что такое PyTorch, запуск готовой модели (для мотивации).
+
+  Шаг 2. "Deep Learning with PyTorch", гл. 3
+         Тензоры. Почти numpy - повторение в новой обёртке.
+
+  Шаг 3. "Deep Learning with PyTorch", гл. 4
+         Как картинки и таблицы превращаются в тензоры (shape!).
+
+  Шаг 4. "Deep Learning with PyTorch", гл. 5
+         Как сеть учится: градиентный спуск, autograd.
+         САМАЯ ТРУДНАЯ И САМАЯ ВАЖНАЯ. Не торопиться.
+
+  Шаг 5. "Deep Learning with PyTorch", гл. 6
+         Первая настоящая сеть: nn, optim.
+
+  Шаг 6. "Deep Learning with PyTorch", гл. 7
+         Классификация картинок.
+
+  Шаг 7. "Deep Learning with PyTorch", гл. 8
+         Свёрточные сети (CNN) - основа всего CV.
+
+  Справочник на этот этап:
+    "Modern Computer Vision with PyTorch", гл. 1-3
+    То же самое, но объяснено по-другому. Если в "Deep Learning with PyTorch"
+    что-то не заходит (особенно гл. 5) - прочитать это место в
+    "Modern Computer Vision with PyTorch", гл. 1 (там сеть строится
+    с нуля на игрушечных данных).
+
+
+ЭТАП 2. Практика CV
+Основная книга: "Modern Computer Vision with PyTorch"
+----------------------------------------------------
+  Шаг 8.  "Modern Computer Vision with PyTorch", гл. 4
+          CNN ещё раз, на реальных картинках (быстро - уже знакомо).
+
+  Шаг 9.  "Modern Computer Vision with PyTorch", гл. 5
+          Transfer learning: берём готовую сеть и доучиваем под свою задачу.
+          На практике так делают почти всегда.
+
+  Шаг 10. "Modern Computer Vision with PyTorch", гл. 6
+          Аугментация, batchnorm, почему модель так решила.
+
+
+ЭТАП 3. Выбор направления
+Основная книга: "Modern Computer Vision with PyTorch"
+----------------------------------------------------
+  Шаг 11. "Modern Computer Vision with PyTorch", гл. 7-8
+          Детекция объектов (YOLO и др.).
+
+  Шаг 12. "Modern Computer Vision with PyTorch", гл. 9
+          Сегментация.
+
+  Шаг 13. "Modern Computer Vision with PyTorch", гл. 10
+          Применения: видео, 3D и т.д.
+
+
+ПОТОМ, ПО ИНТЕРЕСУ
+------------------
+  - "Deep Learning with PyTorch", гл. 11-15
+      Большой проект по снимкам КТ - как выглядит реальный проект целиком.
+  - "Deep Learning with PyTorch", гл. 17
+    и "Modern Computer Vision with PyTorch", гл. 18
+      Как выкатить модель в продакшен (FastAPI, ONNX).
+  - "Modern Computer Vision with PyTorch", гл. 11-17
+    и "Deep Learning with PyTorch", гл. 9-10
+      Генерация картинок: GAN, diffusion, трансформеры.
+
+
+ПРОПУСТИТЬ
+----------
+  - "Deep Learning with PyTorch", гл. 16
+      Обучение на нескольких GPU - пока незачем.
+  - "Modern Computer Vision with PyTorch", гл. 14
+      Reinforcement learning - другая область.
+
+
+Темп - какой получится. "Deep Learning with PyTorch", гл. 5 может занять
+столько же времени, сколько вся книга по NumPy, - это нормально.
