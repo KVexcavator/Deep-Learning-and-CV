@@ -1,0 +1,13 @@
+# виртуальные окружения
+.venv/
+
+# служебное Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# скачанные модели (качаются заново командой из PLAN.md)
+*.task
+
+# личное
+CLAUDE.md
+notes/
